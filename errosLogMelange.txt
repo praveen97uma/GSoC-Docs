@@ -1,0 +1,136 @@
+changeset:   5399:9097d46d0427
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Thu Mar 24 18:26:01 2011 +0100
+summary:     Add tests for request, and fix it
+E4 F149  COVERAGE : 56%
+
+
+
+changeset:   5404:43d82790af20
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Fri Mar 25 01:31:04 2011 +0100
+summary:     Enforce 2-letter state abbreviations for US addresses
+
+E14 F149
+
+
+changeset:   5462:be841c650715
+tag:         tip
+user:        Mario Ferraro <fadinlight@gmail.com>
+date:        Sat Mar 26 01:16:37 2011 +0000
+summary:     Apply style to the student proposal abstract counter.
+
+FAILED (errors=10, failures=153)
+
+
+
+changeset:   5478:1f19b94bc4a8
+tag:         tip
+user:        Lennard de Rijk <ljvderijk@gmail.com>
+date:        Sat Mar 26 15:31:47 2011 +0100
+summary:     Give the proposal review page a page title.
+FAILED (errors=11, failures=154)
+
+
+changeset:   5492:a1a17a8281b6
+tag:         tip
+user:        Lennard de Rijk <ljvderijk@gmail.com>
+date:        Sat Mar 26 16:30:31 2011 +0100
+summary:     Succesfully only allow mentors and org admins to score proposals.
+FAILED (errors=16, failures=161)
+
+
+
+changeset:   5499:6eb6b98c3fb2
+tag:         tip
+user:        Lennard de Rijk <ljvderijk@gmail.com>
+date:        Sat Mar 26 17:41:34 2011 +0100
+summary:     Change cancel button text on review page to be more clear about its effects.
+FAILED (errors=14, failures=162)
+
+
+
+
+changeset:   5548:b656f0131ef2
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Sun Mar 27 04:40:06 2011 +0200
+summary:     Another legacy url for accepted orgs
+FAILED (errors=15, failures=160)
+
+changeset:   5607:de1c3eb34e06
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Sun Mar 27 19:26:50 2011 +0200
+summary:     Add student email to proposal
+FAILED (errors=11, failures=153)
+
+changeset:   5655:f0f92fe8afe7
+tag:         tip
+user:        Daniel Hans <Daniel.M.Hans@gmail.com>
+date:        Mon Mar 28 08:57:24 2011 +0200
+summary:     Withdrawn requests may be resubmitted.
+FAILED (errors=14, failures=154)
+
+changeset:   5711:cc9c13fd2ad1
+tag:         tip
+user:        Daniel Hans <Daniel.M.Hans@gmail.com>
+date:        Tue Mar 29 02:11:48 2011 +0200
+summary:     GSoCProject model added.
+FAILED (errors=12, failures=153)
+
+changeset:   5810:2c2a73fcbbcb
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Thu Mar 31 02:35:39 2011 +0200
+summary:     Also remove default sort order
+FAILED (errors=12, failures=154)
+
+
+changeset:   5829:33830df237a5
+tag:         tip
+user:        Daniel Hans <Daniel.M.Hans@gmail.com>
+date:        Thu Mar 31 17:50:18 2011 +0200
+summary:     Students can withdraw/resubmit proposals.
+FAILED (errors=13, failures=154)
+
+changeset:   5857:992f6502727a
+tag:         tip
+user:        Madhusudan.C.S <madhusudancs@gmail.com>
+date:        Fri Apr 01 17:02:34 2011 +0530
+summary:     Style fixes and remove unused imports.
+FAILED (errors=12, failures=153)
+
+changeset:   5870:d6cfc6991a62
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Sat Apr 02 15:05:34 2011 +0200
+summary:     Add getApplication(NoReply)Email helper
+(errors=199, failures=27)
+
+
+
+
+changeset:   5987:e31082041928
+tag:         tip
+user:        Madhusudan.C.S <madhusudancs@gmail.com>
+date:        Tue Apr 05 05:28:37 2011 +0530
+summary:     Use the django's datetime formatting utility function to construct datetime strings.
+FAILED (errors=65, failures=121)
+
+changeset:   6049:f7c17f594b2a
+tag:         tip
+user:        Sverre Rabbelier <srabbelier@gmail.com>
+date:        Wed Apr 06 18:08:03 2011 +0200
+summary:     Retrieve site object once
+FAILED (errors=71, failures=113
+
+changeset:   6074:3a6d33400c01
+tag:         tip
+user:        Praveen Kumar <praveen97uma@gmail.com>
+date:        Fri Apr 08 09:12:34 2011 +0530
+summary:     corrected getSpawnMailTask to getSpawnMailTaskTxn
+FAILED (errors=64, failures=120)
+
