@@ -1,0 +1,125 @@
+tests
+|-- app
+|   |-- __init__.py
+|   `-- soc
+|       |-- cache
+|       |   |-- __init__.py
+|       |   |-- test_base.py
+|       |   `-- test_sidebar.py
+|       |-- __init__.py
+|       |-- logic
+|       |   |-- __init__.py
+|       |   |-- models
+|       |   |   |-- __init__.py
+|       |   |   |-- test_base.py
+|       |   |   |-- test_model.py
+|       |   |   |-- test_role.py
+|       |   |   |-- test_student.py
+|       |   |   `-- test_user.py
+|       |   |-- test_allocations.py
+|       |   |-- test_cleaning.py
+|       |   `-- test_filtering.py
+|       |-- models
+|       |   |-- __init__.py
+|       |   `-- test_model.py
+|       |-- modules
+|       |   |-- gci
+|       |   |   |-- __init__.py
+|       |   |   |-- logic
+|       |   |   |   |-- __init__.py
+|       |   |   |   `-- models
+|       |   |   |       |-- __init__.py
+|       |   |   |       `-- test_task.py
+|       |   |   |-- models
+|       |   |   |   |-- __init__.py
+|       |   |   |   `-- test_task.py
+|       |   |   `-- views
+|       |   |       |-- __init__.py
+|       |   |       `-- models
+|       |   |           |-- __init__.py
+|       |   |           `-- test_task.py
+|       |   |-- gsoc
+|       |   |   |-- __init__.py
+|       |   |   |-- logic
+|       |   |   |   |-- __init__.py
+|       |   |   |   `-- models
+|       |   |   |       `-- __init__.py
+|       |   |   |-- models
+|       |   |   |   `-- __init__.py
+|       |   |   |-- tasks
+|       |   |   |   |-- __init__.py
+|       |   |   |   |-- test_accept_proposals.py
+|       |   |   |   |-- test_proposal_duplicates.py
+|       |   |   |   `-- test_slot_assignment.py
+|       |   |   `-- views
+|       |   |       |-- __init__.py
+|       |   |       `-- models
+|       |   |           |-- __init__.py
+|       |   |           |-- test_org_admin.py
+|       |   |           `-- test_organization.py
+|       |   |-- __init__.py
+|       |   `-- seeder
+|       |       |-- __init__.py
+|       |       |-- logic
+|       |       |   |-- __init__.py
+|       |       |   |-- providers
+|       |       |   |   |-- __init__.py
+|       |       |   |   |-- test_boolean.py
+|       |       |   |   |-- test_date.py
+|       |       |   |   |-- test_email.py
+|       |       |   |   |-- test_float.py
+|       |       |   |   |-- test_integer.py
+|       |       |   |   |-- test_link.py
+|       |       |   |   |-- test_phone_number.py
+|       |       |   |   |-- test_provider.py
+|       |       |   |   |-- test_reference.py
+|       |       |   |   |-- test_string.py
+|       |       |   |   `-- test_text.py
+|       |       |   |-- test_models.py
+|       |       |   |-- test_providers.py
+|       |       |   `-- test_seeder.py
+|       |       `-- views
+|       |           |-- __init__.py
+|       |           `-- test_seeder.py
+|       |-- tasks
+|       |   |-- __init__.py
+|       |   |-- test_grading_survey_group.py
+|       |   `-- test_surveys.py
+|       `-- views
+|           |-- helper
+|           |   |-- __init__.py
+|           |   `-- test_access.py
+|           |-- __init__.py
+|           |-- models
+|           |   |-- __init__.py
+|           |   |-- test_base.py
+|           |   |-- test_org_admin.py
+|           |   |-- test_program.py
+|           |   |-- test_sponsor.py
+|           |   |-- test_student.py
+|           |   `-- test_user.py
+|           `-- sidebar
+|               |-- __init__.py
+|               `-- test_sidebar.py
+|-- bad_test_settings
+|-- datasets.py
+|-- good_test_settings
+|-- __init__.py
+|-- profile_utils.py
+|-- run.py
+|-- settings_test.py
+|-- setup.cfg
+|-- svn_helper_test.py
+|-- test_functional.py
+|-- testsStructure.html
+|-- test_utils.py
+|-- timeline_utils.py
+`-- views
+    |-- __init__.py
+    |-- test_dashboard.py
+    |-- test_document.py
+    |-- test_homepage.py
+    |-- test_invite.py
+    |-- test_profile.py
+    `-- test_program.py
+
